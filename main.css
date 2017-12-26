@@ -1,0 +1,276 @@
+/*
+----------------------------------------------------------------------------------------------
+Globals
+----------------------------------------------------------------------------------------------
+*/
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: initial !important;
+    text-decoration: none !important;
+}
+
+body {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+        
+img {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+}
+
+h3 {
+    margin: 15px !important;
+}
+
+.panel-body {
+    font-size: 16px;
+}
+
+.no-padding-panel {
+    padding: 0 !important;
+}
+
+.centered-text {
+    text-align: center;
+}
+        
+.ident {
+    margin-left: 1.5em;
+    color: black;
+}
+
+li {
+    margin: 1em 0;
+    margin-left: -20px;
+}
+
+.row {
+    max-width:980px;
+}
+
+.category-row {
+    margin-top:15px;
+}
+
+.header-text {
+    font-family: 'Playfair Display', serif;
+}
+
+.category-header {
+    margin-bottom:20px; 
+    margin-top:25px;
+}
+
+.category-header-text {
+    font-family: 'Playfair Display', serif; 
+    font-size: 32px;
+}
+
+.category-content-row {
+    margin-top:15px;
+}
+
+.category-content-text {
+    font-size: 18px;
+}
+
+.content-paragraph {
+    margin: 15px;
+}
+
+.contact-icons {
+    margin-right:30px !important;
+}
+
+.info-icon {
+    position:absolute; 
+    top:5px; 
+    right:20px; 
+    cursor:pointer;
+}
+
+/*
+----------------------------------------------------------------------------------------------
+Title Page
+----------------------------------------------------------------------------------------------
+*/
+
+#title-img {
+    position:absolute; 
+    top:-13vh; 
+    left:0;
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%); /* Safari 6.0 - 9.0 */
+}
+
+#title-buttons {
+    margin-bottom:100px;
+}
+.title-text {
+    margin-top:-120px;
+}
+
+.header-big {
+    margin-top:90px; 
+    margin-bottom:40px; 
+    font-weight:bold; 
+    font-size: 60px; 
+    color:white; 
+} 
+
+.header-small {
+    margin-bottom: 90px; 
+    font-size: 22px; 
+    color:white;
+}
+
+@media (max-width: 480px) {
+    .header-big {
+        margin-top: 20px;
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .header-small {
+        margin-bottom: 30px;
+    }
+} 
+
+/*
+    The page up sticky button
+*/
+#page-up-sticky-button {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    z-index: 10;
+    visibility: hidden;
+    bottom: 10px;
+    background-color: blueviolet;
+    color: white !important;
+}
+
+ul-no-decoration {
+    font-size: 20px; 
+    margin-left:15px; 
+    list-style-type: none;
+}
+
+/*
+----------------------------------------------------------------------------------------------
+Kontak Content
+----------------------------------------------------------------------------------------------
+*/
+
+.contact-panel {
+    min-height: 530px;
+}
+
+/*
+----------------------------------------------------------------------------------------------
+About Me
+----------------------------------------------------------------------------------------------
+*/
+
+.about-me-panel {
+    min-height: 410px;
+}
+
+/*
+----------------------------------------------------------------------------------------------
+Nachhilfe
+----------------------------------------------------------------------------------------------
+*/
+
+.nachhilfe-panel {
+    min-height: 530px;
+}
+
+/*
+----------------------------------------------------------------------------------------------
+Kombinationstherapie
+----------------------------------------------------------------------------------------------
+*/
+
+.kombinationstherapie-panel {
+    min-height: 820px;
+}
+
+
+/*
+----------------------------------------------------------------------------------------------
+Kombinationstherapie Details
+----------------------------------------------------------------------------------------------
+*/
+
+.kombinationstherapie-details-panel-1 {
+    min-height: 690px;
+}
+
+.kombinationstherapie-details-panel-2 {
+    min-height: 560px;
+}
+
+/*
+----------------------------------------------------------------------------------------------
+Prices
+----------------------------------------------------------------------------------------------
+*/
+
+.price-container {
+    width:100%; 
+    margin-top:45px; 
+    margin-bottom:45px;
+    text-align: center;
+}
+
+/*
+----------------------------------------------------------------------------------------------
+Rounded Buttons
+----------------------------------------------------------------------------------------------
+*/
+
+.ccbtn {
+    text-decoration: none !important;
+    display: inline-block;
+    position: fixed,
+    font-size:20px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-right:15px;
+    margin-bottom:15px;
+    text-transform:uppercase;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.ccbtn:hover {
+    text-decoration: none;
+    background-color: #2EE59D;
+    color: #fff !important;
+    -webkit-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+        
+.btn-rounded {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+        
+.btn-white {
+    color:black;
+    background: white;
+}
